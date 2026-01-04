@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Center Flex</title>
+
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            background-color: rgb(2, 231, 155);
+            margin: 20px;
+        }
+
+        .box {
+            background-color: antiquewhite;
+            font-size: 4em;
+            height: 200px;
+            width: 200px;
+        }
+
+
+        /* when we need to do vertically center of box using flex */
+        .container2 {
+            display: flex;
+            justify-content: center;
+
+            /* vertically center a ananr jonno */
+            align-items: center;
+
+            background-color: rgb(171, 226, 208);
+            margin: 20px;
+            height: 600px;
+        }
+
+        .box2 {
+            background-color: rgb(235, 149, 37);
+            font-size: 4em;
+            height: 200px;
+            width: 200px;
+        }
+    </style>
+    <link rel="stylesheet" href="styles/nav.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+
+                <!-- li*4>a            short cut to create list with anchor a -->
+                <li><a href="blogs.html">Blogs</a></li>
+                <li><a href="centerFlex.html">Center Flex</a></li>
+                <li><a href="flex.html">Flex</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="auto.html">Margin Auto</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    
+    <div class="container">
+        <div class="box">
+            Box
+        </div>
+    </div>
+
+    <div class="container2">
+        <div class="box2">
+            Box
+        </div>
+    </div>
+</body>
+
+</html>
